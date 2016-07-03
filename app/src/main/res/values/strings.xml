@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WheelOfFortune</string>
+    <string name="menu_create">手动创建</string>
+    <string name="menu_import">从通讯录导入</string>
+</resources>

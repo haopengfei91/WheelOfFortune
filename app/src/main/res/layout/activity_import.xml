@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hpf.wheeloffortune.Import">
+
+    <LinearLayout
+        android:id="@+id/id_title"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark">
+
+        <ImageView
+            android:id="@+id/id_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="从通讯录导入"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/id_start"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="确定"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginRight="10dp"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/id_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_title">
+
+    </ListView>
+
+</RelativeLayout>
